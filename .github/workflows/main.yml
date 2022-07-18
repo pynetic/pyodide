@@ -3,9 +3,9 @@ name: main
 
 on:
   push:
-    branches: [main]
+    branches: [stable]
   pull_request:
-    branches: [main]
+    branches: [stable]
 
 concurrency:
   group: main-${{ github.head_ref }}

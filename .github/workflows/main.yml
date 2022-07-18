@@ -1,3 +1,4 @@
+# Modified pyodide build for pynetic
 name: main
 
 on:
